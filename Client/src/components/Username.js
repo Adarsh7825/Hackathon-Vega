@@ -7,6 +7,7 @@ import { usernameValidate } from '../helper/validate'
 import { useAuthStore } from '../store/store'
 
 import styles from '../styles/Username.module.css';
+import Navbar from './Navbar';
 
 export default function Username() {
 
@@ -28,7 +29,6 @@ export default function Username() {
 
   return (
     <div className="container mx-auto">
-
       <Toaster position='top-center' reverseOrder={false}></Toaster>
 
       <div className='flex justify-center items-center h-screen'>

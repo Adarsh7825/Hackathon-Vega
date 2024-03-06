@@ -5,8 +5,14 @@ const router = Router();
 import * as controller from '../controllers/appController.js';
 import { registerMail } from '../controllers/mailer.js'
 import Auth, { localVariables } from '../middleware/auth.js';
+// const express = require("express");
+// import postController from '../controllers/postController.js';
+// import { getAllPosts, getPostById, createPost, likePost } from '../controllers/postController.js';
 
-
+// router.get("/", postController.getAllPosts);
+// router.get("/:id", postController.getPostById);
+// router.post("/create", auth, postController.createPost);
+// router.put("/like/:id", auth, postController.likePost);
 
 /** POST Methods */
 router.route('/register').post(controller.register); // register user

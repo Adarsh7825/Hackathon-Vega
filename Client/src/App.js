@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
+import Navbar from './components/Navbar'; // Assuming you have a Navbar component
 
 /** import all components */
 import Username from './components/Username';
@@ -10,20 +10,24 @@ import Profile from './components/Profile';
 import Recovery from './components/Recovery';
 import Reset from './components/Reset';
 import PageNotFound from './components/PageNotFound';
-
+import PlacementCalendar from './components/PlacementCalendar.';
+import PreparationMaterial from './components/PreparationMaterials';
+import CompanyPortal from './components/CompanyPortal';
+import dashboard from './components/dashboard';
 
 /** auth middleware */
-import { AuthorizeUser, ProtectRoute } from './middleware/auth'
+import { AuthorizeUser, ProtectRoute } from './middleware/auth';
+import QueryForum from './components/QueryForum';
 
 /** root routes */
 const router = createBrowserRouter([
     {
         path : '/',
-        element : <Username></Username>
+        element : <Username />
     },
     {
         path : '/register',
-        element : <Register></Register>
+        element : <Register />
     },
     {
         path : '/password',
@@ -35,22 +39,43 @@ const router = createBrowserRouter([
     },
     {
         path : '/recovery',
-        element : <Recovery></Recovery>
+        element : <Recovery />
+    },
+    {
+        path : '/pm',
+        element : <PreparationMaterial />
+    },
+    {
+        path : '/query',
+        element : <QueryForum></QueryForum>
+    },
+    {
+        path : '/dashboard',
+        element : <dashboard></dashboard>
+    },
+    {
+        path : '/cp',
+        element : <CompanyPortal />
     },
     {
         path : '/reset',
-        element : <Reset></Reset>
+        element : <Reset />
+    },
+    {
+        path : '/calender',
+        element : <AuthorizeUser><PlacementCalendar /></AuthorizeUser>
     },
     {
         path : '*',
-        element : <PageNotFound></PageNotFound>
+        element : <PageNotFound />
     },
-])
+]);
 
 export default function App() {
   return (
     <main>
-        <RouterProvider router={router}></RouterProvider>
+        <Navbar /> {/* This places the Navbar above the RouterProvider, making it visible across all routes */}
+        <RouterProvider router={router} />
     </main>
-  )
+  );
 }
