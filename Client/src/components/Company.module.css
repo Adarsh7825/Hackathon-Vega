@@ -1,0 +1,68 @@
+.edONeilAvvdzlhdowaUnsplashIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.amazon {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 130%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.amazonGurugramFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+}
+.hyderabadTelangana {
+  position: relative;
+  line-height: 150%;
+}
+.company,
+.openAIFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+}
+.company {
+  height: 444px;
+  width: 458px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke);
+  border: 2px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 0 var(--padding-9xl);
+  gap: 22px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .amazon {
+    font-size: var(--font-size-13xl);
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .amazon {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+}

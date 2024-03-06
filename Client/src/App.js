@@ -18,6 +18,8 @@ import dashboard from './components/dashboard';
 /** auth middleware */
 import { AuthorizeUser, ProtectRoute } from './middleware/auth';
 import QueryForum from './components/QueryForum';
+import ProductPage from './pages/ProductPage';
+import Chat from './pages/Chat';
 
 /** root routes */
 const router = createBrowserRouter([
@@ -51,7 +53,7 @@ const router = createBrowserRouter([
     },
     {
         path : '/dashboard',
-        element : <dashboard></dashboard>
+        element : <ProductPage></ProductPage>
     },
     {
         path : '/cp',
@@ -76,6 +78,7 @@ export default function App() {
     <main>
         <Navbar /> {/* This places the Navbar above the RouterProvider, making it visible across all routes */}
         <RouterProvider router={router} />
+        <Chat/>
     </main>
   );
 }

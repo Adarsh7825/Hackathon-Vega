@@ -1,0 +1,94 @@
+.noonbrewZicb4EkmakUnsplashIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 458px;
+  height: 296px;
+  object-fit: cover;
+}
+.meta {
+  margin: 0;
+  position: absolute;
+  top: 294px;
+  left: 18px;
+  font-size: inherit;
+  line-height: 130%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 144px;
+}
+.noonbrewZicb4EkmakUnsplashParent {
+  align-self: stretch;
+  height: 346px;
+  position: relative;
+}
+.gurugramHaryana {
+  position: relative;
+  line-height: 150%;
+}
+.gurugramHaryanaWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+}
+.companyChild {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.company,
+.companyParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.company {
+  width: 458px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke);
+  border: 2px solid var(--color-gainsboro);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 0 var(--padding-9xl);
+  gap: 46px 0;
+}
+.companyParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 0 var(--padding-mid);
+  gap: 0 32px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .meta {
+    font-size: var(--font-size-13xl);
+    line-height: 42px;
+  }
+  .companyParent {
+    gap: 0 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .meta {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+  .company {
+    gap: 46px 0;
+  }
+}

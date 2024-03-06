@@ -18,8 +18,8 @@ const EnhancedNavbar = () => {
           </div>
           {/* Primary Navigation */}
           <div className="hidden md:flex items-center space-x-4">
-          <a href="/dashboard" className="block py-2 px-4 text-sm hover:bg-blue-700">Home</a>
-        <a href="/companies" className="block py-2 px-4 text-sm hover:bg-blue-700">Company Portal</a>
+          <a href="/system" className="block py-2 px-4 text-sm hover:bg-blue-700">Home</a>
+        <a href="/dashboard" className="block py-2 px-4 text-sm hover:bg-blue-700">Company Portal</a>
         <a href="/pm" className="block py-2 px-4 text-sm hover:bg-blue-700">Preparation Materials</a>
         <a href="/calender" className="block py-2 px-4 text-sm hover:bg-blue-700">Placement Calender</a>
         <a href="/profile" className="block py-2 px-4 text-sm hover:bg-blue-700">My Profile</a>
@@ -35,11 +35,12 @@ const EnhancedNavbar = () => {
       </div>
       {/* Mobile Menu */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
-        <a href="#" className="block py-2 px-4 text-sm hover:bg-blue-700">Home</a>
-        <a href="/pm" className="block py-2 px-4 text-sm hover:bg-blue-700">Resources</a>
-        <a href="#" className="block py-2 px-4 text-sm hover:bg-blue-700">Calender</a>
-        <a href="#" className="block py-2 px-4 text-sm hover:bg-blue-700">My Profile</a>
-        <a href="#" className="block py-2 px-4 text-sm hover:bg-blue-700">Forum</a>
+      <a href="/system" className="block py-2 px-4 text-sm hover:bg-blue-700">Home</a>
+        <a href="/dashboard" className="block py-2 px-4 text-sm hover:bg-blue-700">Company Portal</a>
+        <a href="/pm" className="block py-2 px-4 text-sm hover:bg-blue-700">Preparation Materials</a>
+        <a href="/calender" className="block py-2 px-4 text-sm hover:bg-blue-700">Placement Calender</a>
+        <a href="/profile" className="block py-2 px-4 text-sm hover:bg-blue-700">My Profile</a>
+            <a href="/query" className="block py-2 px-4 text-sm hover:bg-blue-700">Query Forum</a>
       </div>
     </nav>
   );

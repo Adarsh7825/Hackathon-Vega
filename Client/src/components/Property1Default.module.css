@@ -1,0 +1,28 @@
+.google {
+  position: absolute;
+  bottom: -26px;
+  left: 0;
+  line-height: 130%;
+  font-weight: 600;
+}
+.property1default {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .google {
+    font-size: var(--font-size-13xl);
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .google {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+}

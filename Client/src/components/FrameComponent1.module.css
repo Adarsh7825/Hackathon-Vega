@@ -1,0 +1,81 @@
+.noonbrewZicb4EkmakUnsplashIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.microsoft {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 130%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.companynoonbrewziCbEKmakuns {
+  width: 265px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.mumbaimaharashtra {
+  position: relative;
+  line-height: 150%;
+}
+.cityMumbaiMaharashtra,
+.company1,
+.company1Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cityMumbaiMaharashtra {
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+}
+.company1,
+.company1Wrapper {
+  flex-direction: column;
+  max-width: 100%;
+}
+.company1 {
+  width: 458px;
+  height: 444px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke);
+  border: 2px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 0 0 var(--padding-9xl);
+  gap: 22px 0;
+}
+.company1Wrapper {
+  flex: 1;
+  min-width: 330px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .microsoft {
+    font-size: var(--font-size-13xl);
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .microsoft {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+}
