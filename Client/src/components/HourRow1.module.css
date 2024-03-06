@@ -1,0 +1,220 @@
+.time {
+  width: 36px;
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.block1 {
+  align-self: stretch;
+  height: 36px;
+  box-shadow: 0-1px 0#f7f7f7 inset;
+}
+.block,
+.block1,
+.block2 {
+  background-color: var(--gray-50);
+}
+.block2 {
+  align-self: stretch;
+  height: 36px;
+}
+.block {
+  flex: 1;
+  box-shadow: -1px -1px 0#e0e0e0 inset;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 142px;
+  max-width: 145px;
+}
+.block4 {
+  align-self: stretch;
+  height: 36px;
+  box-shadow: 0-1px 0#f7f7f7 inset;
+}
+.block3,
+.block4,
+.block5 {
+  background-color: var(--white);
+}
+.block5 {
+  align-self: stretch;
+  height: 36px;
+}
+.block3 {
+  flex: 1;
+  box-shadow: -1px -1px 0#e0e0e0 inset;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 142px;
+  max-width: 145px;
+}
+.block7 {
+  align-self: stretch;
+  height: 36px;
+  box-shadow: 0-1px 0#f7f7f7 inset;
+}
+.block6,
+.block7,
+.block8 {
+  background-color: var(--white);
+}
+.block8 {
+  align-self: stretch;
+  height: 36px;
+}
+.block6 {
+  flex: 1;
+  box-shadow: -1px -1px 0#e0e0e0 inset;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 142px;
+  max-width: 145px;
+}
+.block10 {
+  align-self: stretch;
+  height: 36px;
+  box-shadow: 0-1px 0#f7f7f7 inset;
+}
+.block10,
+.block11,
+.block9 {
+  background-color: var(--white);
+}
+.block11 {
+  align-self: stretch;
+  height: 36px;
+}
+.block9 {
+  flex: 1;
+  box-shadow: -1px -1px 0#e0e0e0 inset;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 142px;
+  max-width: 145px;
+}
+.block13 {
+  align-self: stretch;
+  height: 36px;
+  box-shadow: 0-1px 0#f7f7f7 inset;
+}
+.block12,
+.block13,
+.block14 {
+  background-color: var(--blue-50);
+}
+.block14 {
+  align-self: stretch;
+  height: 36px;
+}
+.block12 {
+  flex: 1;
+  box-shadow: -1px -1px 0#e0e0e0 inset;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 142px;
+  max-width: 145px;
+}
+.block16 {
+  align-self: stretch;
+  height: 36px;
+  box-shadow: 0-1px 0#f7f7f7 inset;
+}
+.block15,
+.block16,
+.block17 {
+  background-color: var(--white);
+}
+.block17 {
+  align-self: stretch;
+  height: 36px;
+}
+.block15 {
+  flex: 1;
+  box-shadow: -1px -1px 0#e0e0e0 inset;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 142px;
+  max-width: 145px;
+}
+.block19 {
+  box-shadow: 0-1px 0#f7f7f7 inset;
+}
+.block19,
+.block20 {
+  align-self: stretch;
+  height: 36px;
+  background-color: var(--gray-50);
+}
+.block18,
+.blocks {
+  display: flex;
+  align-items: flex-start;
+}
+.block18 {
+  flex: 1;
+  background-color: var(--gray-50);
+  box-shadow: 0-1px 0#e0e0e0 inset;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 142px;
+  max-width: 145px;
+}
+.blocks {
+  width: 1012px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: calc(100% - 96px);
+  row-gap: 20px;
+}
+.time1 {
+  width: 36px;
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.hourRow {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 12px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--text-xs-medium-size);
+  color: var(--gray-500);
+  font-family: var(--text-xs-medium);
+}

@@ -1,94 +1,418 @@
-.noonbrewZicb4EkmakUnsplashIcon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 458px;
-  height: 296px;
+.edONeilAvvdzlhdowaUnsplashIcon {
+  align-self: stretch;
+  height: 280px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
   object-fit: cover;
 }
-.meta {
+.google {
   margin: 0;
-  position: absolute;
-  top: 294px;
-  left: 18px;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 130%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.bangloreKarnataka {
+  position: relative;
+  font-size: var(--semibold-16-size);
+  line-height: 150%;
+  color: var(--color-dimgray);
+}
+.applyText {
+  width: 217px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22px 0;
+}
+.apply,
+.apply1 {
+  display: none;
+}
+.apply,
+.apply1,
+.apply2 {
+  position: relative;
+  font-size: var(--semibold-16-size);
+  line-height: 130%;
+  font-weight: 600;
+  font-family: var(--text-xs-medium);
+  color: var(--color-whitesmoke-100);
+  text-align: center;
+}
+.aZChip,
+.aZChip1,
+.aZChip2 {
+  border: 1px solid var(--color-silver);
+  background-color: var(--color-steelblue-200);
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.aZChip2 {
+  flex: 1;
+  padding: var(--padding-mini) var(--padding-7xl) var(--padding-sm)
+    var(--padding-8xl);
+  z-index: 1;
+}
+.aZChip,
+.aZChip1 {
+  gap: 0 8px;
+}
+.aZChip1 {
+  flex: 1;
+  z-index: 1;
+}
+.aZChip {
+  cursor: pointer;
+  padding: 0;
+  align-self: stretch;
+}
+.aZchipFrame {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.azureChipFrame,
+.frameCompany {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.azureChipFrame {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameCompany {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl) 0 var(--padding-3xl);
+  box-sizing: border-box;
+}
+.company2,
+.noonbrewZicb4EkmakUnsplashIcon {
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.company2 {
+  width: 458px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  border: 2px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xl);
+  gap: 38px 0;
+}
+.noonbrewZicb4EkmakUnsplashIcon {
+  margin-top: -9px;
+  align-self: stretch;
+  height: 293px;
+  position: relative;
+  object-fit: cover;
+}
+.microsoft {
+  margin: 0;
+  width: 217px;
+  position: relative;
   font-size: inherit;
   line-height: 130%;
   font-weight: 600;
   font-family: inherit;
   display: inline-block;
-  width: 144px;
 }
-.noonbrewZicb4EkmakUnsplashParent {
-  align-self: stretch;
-  height: 346px;
-  position: relative;
-}
-.gurugramHaryana {
+.mumbaimaharashtra {
   position: relative;
   line-height: 150%;
 }
-.gurugramHaryanaWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-5xl);
-  font-size: var(--font-size-base);
-  color: var(--color-dimgray);
-}
-.companyChild {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
+.apply3,
+.apply4 {
   display: none;
 }
-.company,
-.companyParent {
+.apply3,
+.apply4,
+.apply5 {
+  position: relative;
+  font-size: var(--semibold-16-size);
+  line-height: 130%;
+  font-weight: 600;
+  font-family: var(--text-xs-medium);
+  color: var(--color-whitesmoke-100);
+  text-align: center;
+}
+.aZChip3,
+.aZChip4,
+.aZChip5 {
+  border: 1px solid var(--color-silver);
+  background-color: var(--color-steelblue-200);
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.aZChip5 {
+  flex: 1;
+  padding: var(--padding-mini) var(--padding-7xl) var(--padding-sm)
+    var(--padding-8xl);
+  z-index: 1;
+}
+.aZChip3,
+.aZChip4 {
+  gap: 0 8px;
+}
+.aZChip4 {
+  flex: 1;
+  z-index: 1;
+}
+.aZChip3 {
+  cursor: pointer;
+  padding: 0;
+  width: 100px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.mumbaimaharashtraParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -5px;
+  font-size: var(--semibold-16-size);
+  color: var(--color-dimgray);
+}
+.textFrame {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.company1,
+.parentFrame,
+.parentFrame1,
+.textFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.parentFrame1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-14xl) 0 var(--padding-3xl);
+  box-sizing: border-box;
+}
+.company1,
+.parentFrame {
+  flex-direction: column;
+}
+.company1 {
+  width: 458px;
+  height: 444px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  border: 2px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0 0 var(--padding-8xl);
+  gap: 36px 0;
+}
+.parentFrame {
+  flex: 1;
+  align-items: flex-start;
+  min-width: 330px;
+}
+.noonbrewZicb4EkmakUnsplashIcon1 {
+  align-self: stretch;
+  height: 296px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.appleIcon,
+.appleIcon1 {
+  position: absolute;
+  top: -0.1px;
+  left: 0;
+  width: 110.4px;
+  height: 37.3px;
+}
+.appleIcon1 {
+  z-index: 1;
+}
+.frameFrame {
+  width: 110px;
+  height: 37px;
+  position: relative;
+}
+.apply6,
+.bangaloreKarnataka {
+  position: relative;
+  line-height: 150%;
+}
+.apply6 {
+  font-size: var(--semibold-16-size);
+  line-height: 130%;
+  font-weight: 600;
+  font-family: var(--text-xs-medium);
+  color: var(--color-whitesmoke-100);
+  text-align: center;
+}
+.aZChip6,
+.microsoftCard {
+  display: flex;
+  flex-direction: row;
+}
+.aZChip6 {
+  cursor: pointer;
+  border: 1px solid var(--color-silver);
+  padding: var(--padding-mini) var(--padding-7xl) var(--padding-sm)
+    var(--padding-8xl);
+  background-color: var(--color-steelblue-200);
+  width: 100px;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.aZChip6:hover {
+  background-color: var(--color-steelblue-100);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+}
+.microsoftCard {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.infosysCard,
+.textFrame1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  max-width: 100%;
+}
+.infosysCard {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-8xs);
   box-sizing: border-box;
+}
+.textFrame1 {
+  flex: 1;
+  flex-direction: column;
+}
+.companyFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-14xl) 0 var(--padding-4xl);
+  box-sizing: border-box;
+}
+.company,
+.companyFrame,
+.edoneilAvvdZlhDowAunsplash {
+  display: flex;
+  justify-content: flex-start;
   max-width: 100%;
 }
 .company {
   width: 458px;
   border-radius: var(--br-5xl);
   background-color: var(--color-whitesmoke);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
   border: 2px solid var(--color-gainsboro);
+  box-sizing: border-box;
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: column;
-  padding: 0 0 var(--padding-9xl);
-  gap: 46px 0;
+  align-items: center;
+  padding: 0 0 var(--padding-6xl);
+  gap: 36px 0;
+  font-size: var(--semibold-16-size);
+  color: var(--color-dimgray);
 }
-.companyParent {
+.edoneilAvvdZlhDowAunsplash {
   align-self: stretch;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 0 0 var(--padding-mid);
+  align-items: flex-start;
   gap: 0 32px;
   text-align: left;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
-  font-family: var(--font-inter);
+  font-family: var(--text-xs-medium);
 }
 @media screen and (max-width: 750px) {
-  .meta {
+  .google {
     font-size: var(--font-size-13xl);
     line-height: 42px;
   }
-  .companyParent {
-    gap: 0 32px;
+  .azureChipFrame {
+    flex-wrap: wrap;
+  }
+  .microsoft {
+    font-size: var(--font-size-13xl);
+    line-height: 42px;
+  }
+  .edoneilAvvdZlhDowAunsplash {
+    gap: 0 16px;
   }
 }
 @media screen and (max-width: 450px) {
-  .meta {
+  .google {
     font-size: var(--font-size-5xl);
     line-height: 31px;
   }
+  .company2 {
+    gap: 19px 0;
+  }
+  .microsoft {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+  .mumbaimaharashtraParent {
+    flex-wrap: wrap;
+  }
+  .company1 {
+    height: auto;
+    gap: 18px 0;
+  }
+  .microsoftCard {
+    flex-wrap: wrap;
+  }
   .company {
-    gap: 46px 0;
+    gap: 18px 0;
   }
 }

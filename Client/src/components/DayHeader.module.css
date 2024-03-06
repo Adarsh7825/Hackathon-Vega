@@ -1,0 +1,18 @@
+.day {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+}
+.dayHeader {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  text-align: center;
+  font-size: var(--regular-10-size);
+  color: var(--gray-500);
+  font-family: var(--text-xs-medium);
+}

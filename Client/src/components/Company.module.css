@@ -1,10 +1,10 @@
 .edONeilAvvdzlhdowaUnsplashIcon {
   align-self: stretch;
-  flex: 1;
+  height: 295px;
   position: relative;
   max-width: 100%;
   overflow: hidden;
-  max-height: 100%;
+  flex-shrink: 0;
   object-fit: cover;
 }
 .amazon {
@@ -15,44 +15,80 @@
   font-weight: 600;
   font-family: inherit;
 }
-.amazonGurugramFrame {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-5xl);
-}
+.apply,
 .hyderabadTelangana {
   position: relative;
   line-height: 150%;
 }
-.company,
-.openAIFrame {
+.apply {
+  font-size: var(--semibold-16-size);
+  line-height: 130%;
+  font-weight: 600;
+  font-family: var(--text-xs-medium);
+  color: var(--color-whitesmoke-100);
+  text-align: center;
+}
+.aZChip,
+.amazonTitle {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-5xl);
-  font-size: var(--font-size-base);
+}
+.aZChip {
+  cursor: pointer;
+  border: 1px solid var(--color-silver);
+  padding: var(--padding-mini) var(--padding-7xl) var(--padding-sm)
+    var(--padding-8xl);
+  background-color: var(--color-steelblue-200);
+  width: 100px;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.aZChip:hover {
+  background-color: var(--color-steelblue-100);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+}
+.amazonTitle {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -3px;
+  font-size: var(--semibold-16-size);
   color: var(--color-dimgray);
 }
+.company,
+.openAICard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.openAICard {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xl);
+}
 .company {
-  height: 444px;
   width: 458px;
   border-radius: var(--br-5xl);
   background-color: var(--color-whitesmoke);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
   border: 2px solid var(--color-gainsboro);
   box-sizing: border-box;
   overflow: hidden;
   flex-shrink: 0;
-  flex-direction: column;
-  padding: 0 0 var(--padding-9xl);
-  gap: 22px 0;
+  align-items: center;
+  padding: 0 0 var(--padding-8xl);
+  gap: 23px 0;
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
-  font-family: var(--font-inter);
+  font-family: var(--text-xs-medium);
 }
 @media screen and (max-width: 750px) {
   .amazon {
@@ -64,5 +100,8 @@
   .amazon {
     font-size: var(--font-size-5xl);
     line-height: 31px;
+  }
+  .amazonTitle {
+    flex-wrap: wrap;
   }
 }

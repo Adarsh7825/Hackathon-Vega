@@ -20,6 +20,7 @@ import { AuthorizeUser, ProtectRoute } from './middleware/auth';
 import QueryForum from './components/QueryForum';
 import ProductPage from './pages/ProductPage';
 import Chat from './pages/Chat';
+import Forum from './pages/Forum';
 
 /** root routes */
 const router = createBrowserRouter([
@@ -49,7 +50,7 @@ const router = createBrowserRouter([
     },
     {
         path : '/query',
-        element : <QueryForum></QueryForum>
+        element : <Forum></Forum>
     },
     {
         path : '/dashboard',

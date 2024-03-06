@@ -1,0 +1,42 @@
+.divider {
+  position: absolute;
+  top: 280px;
+  left: 100px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-top: 2px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 1439px;
+  height: 2px;
+}
+.calenderChild,
+.february1 {
+  position: absolute;
+  display: none;
+}
+.calenderChild {
+  top: 2px;
+  left: 138px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.february1 {
+  top: -93px;
+  left: -25px;
+  width: 1588px;
+  height: 1625px;
+}
+.calender {
+  width: 100%;
+  height: 1947px;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .calender {
+    height: auto;
+    min-height: 1947;
+  }
+}

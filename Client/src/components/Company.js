@@ -1,44 +1,21 @@
-import { useMemo } from "react";
 import styles from "./Company.module.css";
 
-const Company = ({
-  edONeilAvvdZlhDowAUnsplas,
-  amazon,
-  hyderabadTelangana,
-  propPadding,
-  propWidth,
-  propFlex,
-}) => {
-  const amazonGurugramFrameStyle = useMemo(() => {
-    return {
-      padding: propPadding,
-      width: propWidth,
-    };
-  }, [propPadding, propWidth]);
-
-  const amazonStyle = useMemo(() => {
-    return {
-      flex: propFlex,
-    };
-  }, [propFlex]);
-
+const Company = () => {
   return (
     <div className={styles.company}>
       <img
         className={styles.edONeilAvvdzlhdowaUnsplashIcon}
         alt=""
-        src={edONeilAvvdZlhDowAUnsplas}
+        src="/edoneilavvdzlhdowaunsplash-1-1@2x.png"
       />
-      <div
-        className={styles.amazonGurugramFrame}
-        style={amazonGurugramFrameStyle}
-      >
-        <h1 className={styles.amazon} style={amazonStyle}>
-          {amazon}
-        </h1>
-      </div>
-      <div className={styles.openAIFrame}>
-        <div className={styles.hyderabadTelangana}>{hyderabadTelangana}</div>
+      <div className={styles.openAICard}>
+        <h1 className={styles.amazon}>Amazon</h1>
+        <div className={styles.amazonTitle}>
+          <div className={styles.hyderabadTelangana}>Hyderabad, Telangana.</div>
+          <button className={styles.aZChip}>
+            <div className={styles.apply}>Apply</div>
+          </button>
+        </div>
       </div>
     </div>
   );
