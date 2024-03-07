@@ -1,0 +1,11 @@
+.v25Icon {
+  margin-bottom: -1px;
+  width: 55px;
+  height: 53px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 3;
+}

@@ -1,0 +1,47 @@
+.employmentExpeditionNavigat,
+.yourPathTo {
+  margin: 0;
+}
+.designMeetupsUsaContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 22px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.profileChild {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+  display: none;
+  min-height: 16px;
+}
+.dribbbleAustin {
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+}
+.profile,
+.title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profile {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 0 6px;
+  font-size: var(--regular-10-size);
+  color: var(--secondary-color-secondary-3);
+}
+.title {
+  flex-direction: column;
+  gap: 2px 0;
+  text-align: left;
+  font-size: var(--text-sm-medium-size);
+  color: var(--secondary-color-background-2);
+  font-family: var(--regular-10);
+}

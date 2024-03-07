@@ -1,0 +1,77 @@
+.rectangleShape {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 73px;
+  right: -273px;
+  bottom: -72px;
+  left: 274px;
+  border-radius: var(--br-base);
+  background-color: var(--secondary-color-background-2);
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+  z-index: 3;
+}
+.frameChild {
+  height: 45.7px;
+  width: 45.7px;
+  position: relative;
+  z-index: 4;
+}
+.applicationDeadline {
+  align-self: stretch;
+  position: relative;
+  z-index: 4;
+}
+.am1200 {
+  position: relative;
+  color: var(--gray-4);
+  white-space: nowrap;
+  z-index: 4;
+}
+.frameParent,
+.line {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.line {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px 0;
+  min-width: 93px;
+}
+.frameParent {
+  flex-direction: row;
+  align-items: center;
+  gap: 0 13px;
+}
+.moreVertical3Icon {
+  height: 17px;
+  width: 4px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.rectangleGroup {
+  width: 275px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm);
+  box-sizing: border-box;
+  position: relative;
+  gap: 0 41px;
+  text-align: left;
+  font-size: var(--regular-10-size);
+  color: var(--black-font);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}

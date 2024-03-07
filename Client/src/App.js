@@ -14,6 +14,7 @@ import PlacementCalendar from './components/PlacementCalendar.';
 import PreparationMaterial from './components/PreparationMaterials';
 import CompanyPortal from './components/CompanyPortal';
 import dashboard from './components/dashboard';
+import FrameHeader from './pages/FrameHeader';
 
 /** auth middleware */
 import { AuthorizeUser, ProtectRoute } from './middleware/auth';
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
     {
         path : '/dashboard',
         element : <ProductPage></ProductPage>
+    },
+    {
+        path : '/test',
+        element : <FrameHeader/>
     },
     {
         path : '/cp',

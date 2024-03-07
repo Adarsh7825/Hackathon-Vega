@@ -1,0 +1,57 @@
+.profile,
+.textFrame,
+.textFrame1 {
+  display: flex;
+  align-items: flex-start;
+}
+.textFrame1 {
+  width: 1426px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 154px 0;
+  max-width: 100%;
+}
+.profile,
+.textFrame {
+  box-sizing: border-box;
+}
+.textFrame {
+  width: 1692px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.profile {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 114px;
+  gap: 103px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1300px) {
+  .textFrame1 {
+    gap: 77px 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .textFrame1 {
+    gap: 38px 0;
+  }
+  .profile {
+    gap: 51px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .textFrame1 {
+    gap: 19px 0;
+  }
+  .profile {
+    gap: 26px 0;
+  }
+}
