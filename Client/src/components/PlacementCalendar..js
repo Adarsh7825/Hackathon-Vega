@@ -26,11 +26,11 @@ const CalendarWithTodos = () => {
   return (
     <div className="container mx-auto p-4">
       <Calendar
-  onChange={onChange}
-  value={date}
-  className="border-2 border-gray-200 rounded-lg w-full max-w-screen-lg mx-auto"
-/>
-      <div className="mt-4">
+        onChange={onChange}
+        value={date}
+        className="border-2 border-gray-200 rounded-lg w-full max-w-screen-lg mx-auto"
+      />
+      <div className="mt-4 flex justify-center items-center">
         <input
           type="text"
           value={inputValue}
@@ -38,15 +38,15 @@ const CalendarWithTodos = () => {
           placeholder="Add new to-do"
           className="border-2 border-gray-200 rounded-lg p-2 mr-2"
         />
-        <button onClick={addTodo} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ">
+        <button onClick={addTodo} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           Add
         </button>
       </div>
       <div className="todos mt-4">
-        <h2 className="text-lg font-semibold">To-dos for {formatDate(date)}</h2>
-        <ul>
+        <h2 className="text-lg font-semibold text-center">To-dos for {formatDate(date)}</h2>
+        <ul className="flex flex-col items-center">
           {(todos[formatDate(date)] || []).map((todo, index) => (
-            <li key={index} className="bg-gray-100 rounded-md p-2 my-2 ">{todo}</li>
+            <li key={index} className="bg-gray-100 rounded-md p-2 my-2 w-full max-w-md">{todo}</li>
           ))}
         </ul>
       </div>
