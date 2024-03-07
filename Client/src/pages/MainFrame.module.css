@@ -1,0 +1,42 @@
+.mainFrame,
+.mainFrameChild {
+  position: relative;
+  overflow: hidden;
+}
+.mainFrameChild {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  display: none;
+}
+.mainFrame {
+  width: 100%;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-144xl) 168px var(--padding-144xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 30px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1250px) {
+  .mainFrame {
+    padding-right: 84px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .mainFrame {
+    gap: 15px 0;
+    padding-right: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mainFrame {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

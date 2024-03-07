@@ -1,0 +1,121 @@
+.campusPlacements {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 100%;
+  font-weight: 800;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.campusPlacementsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.home {
+  position: relative;
+  line-height: 130%;
+}
+.menuFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.companies {
+  flex: 1;
+}
+.companies,
+.resources {
+  position: relative;
+  line-height: 130%;
+}
+.menuFrame1 {
+  flex: 0.8495;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+}
+.calender {
+  position: relative;
+  line-height: 130%;
+}
+.menuFrame2 {
+  flex: 0.8313;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+}
+.forum {
+  position: relative;
+  line-height: 130%;
+}
+.menuFrame3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+}
+.myProfile {
+  position: relative;
+  line-height: 130%;
+  white-space: nowrap;
+}
+.menuFrame4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+}
+.frameParent,
+.headerFrame {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.headerFrame {
+  margin: 0;
+  width: 614px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 34px;
+  text-align: center;
+  font-size: var(--semibold-16-size);
+  color: var(--color-black);
+  font-family: var(--text-xs-medium);
+}
+.frameParent {
+  width: 1458px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-steelblue-200);
+  font-family: var(--font-newsreader);
+}
+@media screen and (max-width: 1250px) {
+  .headerFrame {
+    display: none;
+  }
+  .frameParent {
+    width: 844px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .headerFrame {
+    gap: 0 17px;
+  }
+}

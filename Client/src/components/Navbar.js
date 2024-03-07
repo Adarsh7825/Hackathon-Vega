@@ -18,12 +18,15 @@ const EnhancedNavbar = () => {
           </div>
           {/* Primary Navigation */}
           <div className="hidden md:flex items-center space-x-4">
-          <a href="/system" className="block py-2 px-4 text-sm hover:bg-blue-700">Home</a>
+          <a href="/home" className="block py-2 px-4 text-sm hover:bg-blue-700">Home</a>
         <a href="/dashboard" className="block py-2 px-4 text-sm hover:bg-blue-700">Company Portal</a>
         <a href="/pm" className="block py-2 px-4 text-sm hover:bg-blue-700">Preparation Materials</a>
         <a href="/calender" className="block py-2 px-4 text-sm hover:bg-blue-700">Placement Calender</a>
         <a href="/profile" className="block py-2 px-4 text-sm hover:bg-blue-700">My Profile</a>
             <a href="/query" className="block py-2 px-4 text-sm hover:bg-blue-700">Query Forum</a>
+            <button href="/match"className="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded">
+              Match
+            </button>
           </div>
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
@@ -35,7 +38,7 @@ const EnhancedNavbar = () => {
       </div>
       {/* Mobile Menu */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
-      <a href="/system" className="block py-2 px-4 text-sm hover:bg-blue-700">Home</a>
+      <a href="/home" className="block py-2 px-4 text-sm hover:bg-blue-700">Home</a>
         <a href="/dashboard" className="block py-2 px-4 text-sm hover:bg-blue-700">Company Portal</a>
         <a href="/pm" className="block py-2 px-4 text-sm hover:bg-blue-700">Preparation Materials</a>
         <a href="/calender" className="block py-2 px-4 text-sm hover:bg-blue-700">Placement Calender</a>

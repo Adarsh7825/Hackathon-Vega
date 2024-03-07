@@ -22,12 +22,18 @@ import QueryForum from './components/QueryForum';
 import ProductPage from './pages/ProductPage';
 import Chat from './pages/Chat';
 import Forum from './pages/Forum';
+import MainFrame from "./pages/MainFrame";
+
 
 /** root routes */
 const router = createBrowserRouter([
     {
         path : '/',
         element : <Username />
+    },
+    {
+        path : '/home',
+        element : <MainFrame />
     },
     {
         path : '/register',
@@ -38,8 +44,12 @@ const router = createBrowserRouter([
         element : <ProtectRoute><Password /></ProtectRoute>
     },
     {
-        path : '/profile',
+        path : '/update-profile',
         element : <AuthorizeUser><Profile /></AuthorizeUser>
+    },
+    {
+        path : '/profile',
+        element : <AuthorizeUser><FrameHeader/></AuthorizeUser>
     },
     {
         path : '/recovery',
@@ -56,10 +66,6 @@ const router = createBrowserRouter([
     {
         path : '/dashboard',
         element : <ProductPage></ProductPage>
-    },
-    {
-        path : '/test',
-        element : <FrameHeader/>
     },
     {
         path : '/cp',

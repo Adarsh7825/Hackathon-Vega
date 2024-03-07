@@ -1,0 +1,286 @@
+.why20is20training2020placementIcon {
+  height: 822px;
+  width: 1448px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+
+.joinThisPlatform,
+.unlockYourPotential {
+  margin: 0;
+}
+
+.unlockYourPotentialContainer {
+  margin: 0;
+  width: 847px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.potentialFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-44xl) var(--padding-7xl);
+  box-sizing: border-box;
+  background-image: url(/public/why20is20training2020placement20cell20important1-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 822px;
+  max-width: 100%;
+}
+
+.allInOneProjectBlueGradieIcon {
+  height: 265px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.allinoneprojectbluegradientcon {
+  width: 336px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.allResources,
+.inOnePlace {
+  margin: 0;
+}
+
+.allResourcesInContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 125px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.projecticon,
+.trendsFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.projecticon {
+  align-self: stretch;
+  align-items: center;
+  gap: 16px 0;
+}
+
+.trendsFrame {
+  width: 448px;
+  align-items: flex-start;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  min-width: 448px;
+}
+
+.interviewPrepIcon,
+.stayInformedOfTrendsBlueGIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.stayInformedOfTrendsBlueGIcon {
+  height: 368px;
+  flex-shrink: 0;
+}
+
+.interviewPrepIcon {
+  flex: 1;
+  max-height: 100%;
+}
+
+.interviewPrepAnd {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.informedTrends,
+.interviewPrepText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.informedTrends {
+  align-self: stretch;
+  height: 312px;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  gap: 15px 0;
+}
+
+.interviewPrepText {
+  flex: 1;
+  gap: 74px 0;
+  min-width: 265px;
+  max-width: 100%;
+}
+
+.download41 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.downloadButton {
+  height: 357px;
+  width: 388px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) 0 0;
+  box-sizing: border-box;
+  min-width: 388px;
+  max-width: 100%;
+}
+
+.frameAllResources,
+.stayInformedFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.stayInformedFrame {
+  flex: 1;
+  gap: 0 41px;
+  min-width: 543px;
+  color: var(--color-slateblue);
+}
+
+.frameAllResources {
+  width: 1338px;
+  gap: 0 54px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-mediumpurple-100);
+}
+
+.frameResources,
+.unlockFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.unlockFrame {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 52px 0;
+}
+
+.frameResources {
+  width: 1458px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-26xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 1250px) {
+  .trendsFrame {
+    flex: 1;
+  }
+
+  .frameAllResources {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .download41 {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .downloadButton {
+    flex: 1;
+  }
+
+  .stayInformedFrame {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .unlockYourPotentialContainer {
+    font-size: var(--font-size-17xl);
+  }
+
+  .downloadButton,
+  .trendsFrame {
+    min-width: 100%;
+  }
+
+  .frameAllResources {
+    gap: 0 27px;
+  }
+
+  .unlockFrame {
+    gap: 26px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .unlockYourPotentialContainer {
+    font-size: var(--font-size-8xl);
+  }
+
+  .allResourcesInContainer,
+  .interviewPrepAnd {
+    font-size: var(--semibold-18-size);
+  }
+
+  .interviewPrepText {
+    gap: 37px 0;
+  }
+
+  .stayInformedFrame {
+    gap: 0 20px;
+  }
+}
